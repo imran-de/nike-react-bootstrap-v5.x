@@ -1,0 +1,56 @@
+/* Font link  */
+/* Bebas and roboto Font link */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+/* universal style  */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    background-color: #FFF9F4;
+}
+/* Banner  */
+.orange{
+    color: #FA804C;
+}
+.banner-box{
+    padding-top: 28px;
+    padding-bottom: 129px;
+}
+/* shoes  */
+.card{
+    border: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.tumbnail{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    text-align: center;
+}
+.card img{
+    height: 311px;
+    width: 311px;
+}
+.card-title{
+    color: #363958;
+}
+.btn-cart{
+    padding: 18px 34px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+/* terms and delivery option  */
+.terms{
+    margin-top: 130px;
+}
+@media (max-width: 1024px) {
+    .banner-box{
+        padding-bottom: 28px;
+    }
+    .terms{
+        margin-top: 30px;
+    }
+}
